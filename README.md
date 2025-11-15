@@ -14,7 +14,7 @@ Spells scrolls have multiple crafting recipes and you can configure each spell t
 
 You can change these settings in the spell_crafting_modifications array spell_index.js, by default all spells are crafting.
 
-Also i have backported Mithril from the 1.21.1 version and changed all recipes that use Arcane Debris to instead use Mithril.
+Also i have backported Mithril from the 1.21.1 version and changed all recipes that use Arcane Debris to instead use Mithril. You will have to use Block Swapper to replace Arcane Debris with Mithril Ore or just dont install those scripts.
 
 Made for Minecraft Forge 1.20.1
 
