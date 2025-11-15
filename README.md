@@ -20,6 +20,8 @@ Made for Minecraft Forge 1.20.1
 
 Requires KubeJS, KubeJS Create, Create, Create: Vintage, Iron's Spell and Spellbooks and Alshanex's Familiars(optional, has built in compat)
 
+INCOMPATIBILITES: Easy Anvils by Fuzs(it changes the formatting for renaming items in an anvil which makes master crafting recipes no longer work)
+
 https://www.curseforge.com/minecraft/mc-mods/kubejs
 
 https://www.curseforge.com/minecraft/mc-mods/kubejs-create
