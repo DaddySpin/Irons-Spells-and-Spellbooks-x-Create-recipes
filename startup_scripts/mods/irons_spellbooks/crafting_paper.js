@@ -13,6 +13,6 @@ StartupEvents.registry('item', event => {
 		'legendary_master_paper',
 	]
 	for (let paper of items) {
-		event.create(paper)
+		event.create(`kubejs:${paper}`)
 	}
 })

@@ -28,14 +28,14 @@ ServerEvents.recipes(event => {
 					Scroll(modid, spell, level),
 					Item.of(`kubejs:${rank}_master_paper`).withName(Scroll(modid, spell, level).hoverName.string.replace(" Scroll", "").toLowerCase()).weakNBT(),
 					[
-						event.recipes.createFilling(Inter(school), [Inter(school), Fluid.of(`essence_of_${school}`, 10)]),
+						event.recipes.createFilling(Inter(school), [Inter(school), Fluid.of(`kubejs:essence_of_${school}`, 10)]),
 						event.recipes.createDeploying(Inter(school), [Inter(school), `irons_spellbooks:${rank}_ink`]),
 						event.recipes.vintage.curving(Inter(school), Inter(school)).head('minecraft:feather')
 				]).transitionalItem(Inter(school)).loops(1).id(`iron_spellbooks/sequenced/scrolls/${school}/${rank}/${spell}/level_${level}`)
 			}
 		}
 
-		let representative = Item.of(`dummy_${school}_scroll`)
+		let representative = Item.of(`kubejs:dummy_${school}_scroll`)
 		.setHoverName(random_name.replace(/\b\w/g, char => char.toUpperCase()))
 		.withLore(
 			[Text.white("you can get:")].concat(
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
 				outputItems,
 				`kubejs:${rank}_paper`,
 				[
-					event.recipes.createFilling(Inter(school), [Inter(school), Fluid.of(`essence_of_${school}`, 10)]),
+					event.recipes.createFilling(Inter(school), [Inter(school), Fluid.of(`kubejs:essence_of_${school}`, 10)]),
 					event.recipes.createDeploying(Inter(school), [Inter(school), `irons_spellbooks:${rank}_ink`]),
 					event.recipes.vintage.curving(Inter(school), Inter(school)).head('minecraft:feather')
 			]).transitionalItem(Inter(school)).loops(1).id(`iron_spellbooks/sequenced/scrolls/${school}/${rank}`)

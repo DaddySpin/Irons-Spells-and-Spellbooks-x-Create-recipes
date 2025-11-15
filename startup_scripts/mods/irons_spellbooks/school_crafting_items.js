@@ -14,14 +14,14 @@ let items = [
 
 StartupEvents.registry('item', event => {
 	for (let [element,modid,color] of items) {
-		event.create('dummy_'+element+'_scroll').texture(modid+':item/scroll_'+element)
-		event.create('unfinished_'+element+'_scroll', 'create:sequenced_assembly')
+		event.create(`kubejs:dummy_${element}_scroll`).texture(`${modid}:item/scroll_${element}`)
+		event.create(`kubejs:unfinished_${element}_scroll`, 'create:sequenced_assembly')
 	}
 })
 
 StartupEvents.registry('fluid', event => {
     for (let [element,modid,color] of items) {
-      event.create('kubejs:essence_of_' + element)
+      event.create(`kubejs:essence_of_${element}`)
       .thinTexture(color)
       .noBlock() 
     }

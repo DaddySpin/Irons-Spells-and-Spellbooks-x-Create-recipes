@@ -1,6 +1,6 @@
 // priority: 1000
 
-//change if spells are cratable
+//change if spells are craftable
 //yes, master, random, or no
 let spell_crafting_modifications = [
 	["irons_spellbooks:abyssal_shroud", "yes"],
@@ -125,8 +125,8 @@ function buildSpellIndex() {
 global.formatted_spell_index = buildSpellIndex();
 
 // Apply crafting modifications
-for (let [spell_name, cratable] of spell_crafting_modifications) {
-    global.formatted_spell_index[spell_name].craftable = cratable;
+for (let [spell_name, craftable] of spell_crafting_modifications) {
+    global.formatted_spell_index[spell_name].craftable = craftable;
 }
 
 ///Converts the spell map to an array of arrays grouped by school and rarity.
