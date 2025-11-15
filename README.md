@@ -7,20 +7,12 @@ Addons are mostly compatible, you just need to add a dummy scroll and essence fl
 
 Spells scrolls have multiple crafting recipes and you can configure each spell to be crafted by random, master, both or uncraftable.
 
-/**
  * yes - spell is craftable in both ways
  * random - spell is craftable with a random output off the same rarity and element
  * master - spell is craftable with a master crafting paper by renaming the paper to the name of the spell and it will directly craft that spell
  * no - spell is uncraftable with this script
- */
-let spell_crafting_modifications = [
-	["irons_spellbooks:abyssal_shroud", "yes"],
-	["irons_spellbooks:sculk_tentacles", "yes"],
-	["irons_spellbooks:sonic_boom", "yes"],
-	["irons_spellbooks:planar_sight", "yes"],
-	["irons_spellbooks:telekinesis", "yes"],
-	["irons_spellbooks:eldritch_blast", "yes"],
-]
+
+you can change these settings in the spell_crafting_modifications array spell_index.js, by default all spells are crafting
 
 Made for Minecraft Forge 1.20.1
 
