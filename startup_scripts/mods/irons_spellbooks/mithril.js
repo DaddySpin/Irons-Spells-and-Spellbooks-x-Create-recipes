@@ -1,0 +1,17 @@
+StartupEvents.registry('block', event => {
+	event.create('kubejs:mithril_ore')
+	  .displayName('Mithril Ore')
+	  .stoneSoundType()
+	  .hardness(30)
+	  .resistance(1200)
+	  .requiresTool(true)
+	  .tagBlock('minecraft:mineable/pickaxe')
+	  .tagBlock('forge:needs_netherite_tool')
+	  .tagBlock('forge:ores')
+	  .tagBlock('forge:ores/mithril')
+})
+StartupEvents.registry('item', event => {
+	event.create('kubejs:raw_mithril').rarity("rare")
+	event.create('kubejs:mithril_scrap').rarity("rare")
+	event.create('kubejs:mithril_ingot').rarity("rare")
+})
