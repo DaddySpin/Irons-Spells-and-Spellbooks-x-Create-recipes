@@ -12,7 +12,7 @@ Spells scrolls have multiple crafting recipes and you can configure each spell t
  * master - spell is craftable with a master crafting paper by renaming the paper to the name of the spell and it will directly craft that spell
  * no - spell is uncraftable with this script
 
-You can change these settings in the spell_crafting_modifications array spell_index.js, by default all spells are crafting.
+You can change these settings in the spell_crafting_modifications array spell_index.js, by default all spells are craftable.
 
 Also i have backported Mithril from the 1.21.1 version and changed all recipes that use Arcane Debris to instead use Mithril. You will have to use Block Swapper to replace Arcane Debris with Mithril Ore or just dont install those scripts.
 
