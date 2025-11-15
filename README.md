@@ -8,7 +8,7 @@ Addons are mostly compatible, you just need to add a dummy scroll and essence fl
 Spells scrolls have multiple crafting recipes and you can configure each spell to be crafted by random, master, both or uncraftable.
 
  * yes - spell is craftable in both ways
- * random - spell is craftable with a random output off the same rarity and element
+ * random - spell is craftable with a random output of the same rarity and element
  * master - spell is craftable with a master crafting paper by renaming the paper to the name of the spell and it will directly craft that spell
  * no - spell is uncraftable with this script
 
