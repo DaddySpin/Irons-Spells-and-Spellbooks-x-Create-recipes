@@ -1,7 +1,12 @@
 // priority: 1000
 
 //change if spells are craftable
-//yes, master, random, or no
+/**
+ * yes - spell is craftable in both ways
+ * random - spell is craftable with a random output off the same rarity and element
+ * master - spell is craftable with a master crafting paper by renaming the paper to the name of the spell and it will directly craft that spell
+ * no - spell is uncraftable with this script
+ */
 let spell_crafting_modifications = [
 	["irons_spellbooks:abyssal_shroud", "yes"],
 	["irons_spellbooks:sculk_tentacles", "yes"],
